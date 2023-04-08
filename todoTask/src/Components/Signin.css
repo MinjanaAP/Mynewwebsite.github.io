@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.signInBackground{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Resources/background.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 30%;
+    height: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 0 5% 5% 5%;
+}
+
+form h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    margin: 10px 10%;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10% ;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+    color: #000000f2;
+    background-color: rgba(255,255,255,0.2);
+}
+
+::placeholder{
+    color: #00000080;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+   
+    
+}
+
+.btn-primary{
+    width: 80%;
+    height: 40px;
+    margin: 10px 10%;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    background-image: linear-gradient(to right, #e9a32176 0%,#9c1e8b4d 11%, #441e9c4d 51%, #430dc1bb 100%);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+button:hover{
+    color: #fff;
+    cursor: pointer;
+    transform: scaleX(1.1);
+    -webkit-transform: scaleX(1.1);
+    -moz-transform: scaleX(1.1);
+    -ms-transform: scaleX(1.1);
+    -o-transform: scaleX(1.1);
+}
